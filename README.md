@@ -33,11 +33,11 @@ The function includes the following features:
 3. **Example Usage**: The prompt provides an example of how to call the function. For instance:
    - **Python**:
      ```python
-     v, iteration = nrpi_method(load_data, line_data, slack_bus_voltage=1.5, tolerance=1e-4)
+     v, iteration = bfs_method(load_data, line_data, slack_bus_voltage=1.5, tolerance=1e-4)
      ```
    - **MATLAB**:
      ```matlab
-     [v, iteration] = nrpi_method(load_data, line_data, 1.5, 1e-4);
+     [v, iteration] = bfs_method(load_data, line_data, 1.5, 1e-4);
      ```
 
 4. **Exiting the Function**: Users are prompted to press Enter to continue or type 'quit' to exit the function. This allows for flexibility in how users interact with the function.
