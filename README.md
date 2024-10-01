@@ -60,5 +60,5 @@ This provides a comprehensive tool for conducting power flow analysis in distrib
 
 ## Files
 
-- `nrpi_method.py`: Python code for the Backward Forward Sweep power flow analysis.
-- `nrpi_method.m`: MATLAB code for the Backward Forward Sweep power flow analysis.
+- `bfs_method.py`: Python code for the Backward Forward Sweep power flow analysis.
+- `bfs_method.m`: MATLAB code for the Backward Forward Sweep power flow analysis.
