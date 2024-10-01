@@ -44,9 +44,17 @@ The function includes the following features:
 
 ### Expected Outputs
 
-Upon successful execution, the function returns:
-- The calculated voltage at each bus.
-- The number of iterations required to achieve convergence.
+Upon successful execution, the function returns the following outputs:
+- Voltage after each iteration
+- Number of iterations
+- Time taken for each iteration
+- Average time taken for all runs
+- Total active and reactive power loss
+- Substation active and reactive power
+- Graph of voltage magnitude and angle
+- Single line diagram of the system model
+- Graph of the relationship between maximum error and computational time
+- .csv and .txt file of the voltage profile
 
 This provides a comprehensive tool for conducting power flow analysis in distribution networks, supporting both MATLAB and Python users.
 
